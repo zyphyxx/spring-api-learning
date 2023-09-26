@@ -25,6 +25,10 @@ public class Department implements Serializable {
 
     }
 
+    public Department() {
+
+    }
+
     public Long getId() {
         return id;
     }
