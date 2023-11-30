@@ -1,13 +1,13 @@
-package com.zpx.aprendendoestruturar;
+package com.zpx.tasklist;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AprendendoEstruturarApplicationTests {
+class TaskListApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }

@@ -2,7 +2,7 @@
 
 # Projetos de API com Spring Boot
 
-## 1. Lista de Tarefas (To-Do List)
+## 1. Lista de Tarefas (Task List)
 
 Uma API simples para gerenciar uma lista de tarefas.
 
@@ -12,7 +12,7 @@ Uma API simples para gerenciar uma lista de tarefas.
 
 ---
 
-## 2. Catálogo de Livros
+## 2. Catálogo de Livros (Book Catalog)
 
 API para gerenciar um catálogo de livros.
 
@@ -22,7 +22,7 @@ API para gerenciar um catálogo de livros.
 
 ---
 
-## 3. Blog Pessoal
+## 3. Blog Pessoal (Personal Blog)
 
 API para um blog pessoal.
 
@@ -32,7 +32,7 @@ API para um blog pessoal.
 
 ---
 
-## 4. Controle de Estoque
+## 4. Controle de Estoque (Inventory Management)
 
 API para controle de estoque.
 
@@ -42,7 +42,7 @@ API para controle de estoque.
 
 ---
 
-## 5. Sistema de Autenticação
+## 5. Sistema de Autenticação (Authentication System)
 
 API para autenticação de usuários.
 
@@ -54,7 +54,7 @@ API para autenticação de usuários.
 
 ---
 
-## Melhorias Recomendadas
+## Melhorias Recomendadas 
 
 Para aprimorar seus projetos, considere:
 
