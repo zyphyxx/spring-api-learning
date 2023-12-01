@@ -3,9 +3,7 @@ package com.zpx.tasklist.controllers;
 import com.zpx.tasklist.models.Usuario;
 import com.zpx.tasklist.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,5 +17,10 @@ public class UsuarioController {
     @GetMapping
     public List<Usuario> findAll () {
         return usuarioRepository.findAll();
+    }
+
+    @PostMapping
+    public Usuario createUsuario (@RequestBody Usuario obj) {
+        return usuarioRepository.save(obj);
     }
 }
