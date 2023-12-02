@@ -3,6 +3,8 @@ package com.zpx.tasklist.models;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.List;
+
 
 @Entity
 @Table(name = "usuarios")
@@ -15,8 +17,7 @@ public class Usuario {
 
     private String nome;
 
-    @OneToOne
-    @JoinColumn(name = "postagem_id",referencedColumnName = "id")
-    private Postagem postagem;
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<Postagem> postagem;
 
 }
